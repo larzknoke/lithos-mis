@@ -1,0 +1,125 @@
+body { font-size: 16px; background-color: #FFFFFF; color: #2F312F; font-family: 'Source Sans Pro', sans-serif; }
+
+@media (max-width: 767px) { img { display: block; max-width: 100%; height: auto; } }
+
+.font-ropa, h1, h2, h3, h4, h5, h6, .mi-nav .navbar-nav { font-family: 'Ropa Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+h1 { font-size: 2.25em; }
+
+a { color: #bd1111; }
+a:hover { color: #d41313; }
+
+a.anchor { display: block; position: relative; top: -240px; visibility: hidden; }
+
+.fix-area .outer { width: 100%; left: 0; right: 0; position: fixed; background-color: #FFF; z-index: 9999; height: 180px; }
+@media (max-width: 767px) { .fix-area .outer { height: 250px; } }
+@media (min-width: 768px) and (max-width: 991px) { .fix-area .outer { height: 200px; } }
+
+#header { position: relative; overflow: hidden; height: 520px; background-color: #FFFFFF; }
+@media (max-width: 767px) { #header { height: 300px; } }
+
+.mi-headerbild { top: 20px; left: 0; width: 100%; height: 440px; position: absolute; background-size: cover; background: url("../images/header_24bit.png") no-repeat 0 0; }
+.fix-area .mi-headerbild { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.fix-area .mi-headerbild.focusable:active, .fix-area .mi-headerbild.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+@media (max-width: 767px) { .mi-headerbild { visibility: hidden; display: none; } }
+
+.mi-slogan { position: absolute; left: 308px; top: 180px; width: 330px; }
+.mi-slogan h2 { font-size: 2.25em; text-transform: uppercase; color: #FFFFFF; -webkit-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }
+.fix-area .mi-slogan { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.fix-area .mi-slogan.focusable:active, .fix-area .mi-slogan.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+@media (max-width: 767px) { .mi-slogan { position: relative; padding: 5px; top: 0; left: 0; width: 100%; }
+  .mi-slogan h2 { font-size: 1.25em; color: #2F312F; -webkit-hyphens: none; -ms-hyphens: none; hyphens: none; text-align: center; margin: 10px 0; } }
+
+.mi-logo { position: absolute; left: 300px; }
+.mi-logo h1 { margin: 0; line-height: 0; }
+@media (max-width: 767px) { .mi-logo { position: static; }
+  .mi-logo img { display: table; margin: 0 auto; } }
+.fix-area .mi-logo { left: 50%; margin-left: -137.5px; }
+@media (max-width: 767px) { .fix-area .mi-logo { position: fixed; }
+  .fix-area .mi-logo img { display: table; margin: 0 auto; } }
+
+.mi-nav { background-color: #FFFFFF; -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; position: absolute; bottom: 0; left: 0; width: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.fix-area .mi-nav { bottom: 10px; }
+.mi-nav .navbar-nav { float: none; text-align: center; }
+.mi-nav .navbar-nav a { color: #2F312F; }
+.mi-nav .navbar-nav > li { font-size: 1.5em; text-transform: uppercase; float: none; display: inline-block; }
+@media (max-width: 767px) { .mi-nav .navbar-nav > li { font-size: 1.25em; } }
+@media (min-width: 768px) and (max-width: 991px) { .mi-nav .navbar-nav > li { font-size: 1.25em; } }
+
+section { margin: 40px 0 60px 0; }
+section h1, section h2, section h3, section h4, section h5, section h6, section p { text-align: center; }
+section img { display: table; margin: 0 auto; }
+section h2 { font-size: 2.25em; color: #bd1111; padding-bottom: 60px; text-align: center; background-image: url("/images/divider_rubin.png"); background-position: center bottom; background-repeat: no-repeat; margin-bottom: 40px; }
+section h3 { font-size: 2em; }
+section h4 { color: #bd1111; font-size: 1.5em; }
+
+.spacer1 { height: 40px; }
+
+.spacer2 { height: 80px; }
+
+.redblock { padding: 0 30px 40px 30px; background-color: #bd1111; }
+.redblock h1, .redblock h2, .redblock h3, .redblock h4, .redblock h5, .redblock h6, .redblock p, .redblock li, .redblock a { color: #FFFFFF; }
+.redblock h3 { padding: 40px 0; font-size: 2em; }
+.redblock li { display: block; list-style-type: none; margin-bottom: 7px; }
+.redblock ul:first-child > li:before { content: "\e072"; font-family: 'Glyphicons Halflings'; font-size: 9px; float: left; margin-top: 5px; margin-left: -17px; }
+.redblock ul ul { padding-left: 10px; }
+.redblock ul ul > li:before { content: "\0b7"; font-size: 10px; float: left; margin-top: 5px; margin-left: -10px; }
+
+
+.greyblock { padding: 0 30px 40px 30px; background-color: #c5c5c5; }
+.greyblock h1, .greyblock h2, .greyblock h3, .greyblock h4, .greyblock h5, .greyblock h6, .greyblock p, .greyblock li, .greyblock a { color: #FFFFFF; }
+.greyblock h3 { padding: 40px 0; font-size: 2em; }
+.greyblock li { display: block; list-style-type: none; margin-bottom: 7px; }
+.greyblock ul:first-child > li:before { content: "\e072"; font-family: 'Glyphicons Halflings'; font-size: 9px; float: left; margin-top: 5px; margin-left: -17px; }
+.greyblock ul ul { padding-left: 10px; }
+.greyblock ul ul > li:before { content: "\0b7"; font-size: 10px; float: left; margin-top: 5px; margin-left: -10px; }
+
+
+.kompetenz h4 { text-transform: uppercase; }
+
+.anwender img { margin-bottom: 40px; }
+.anwender h4 { text-transform: uppercase; color: #bd1111; }
+.anwender p { text-align: left; }
+@media (min-width: 768px) and (max-width: 991px) { .anwender p { text-align: center; }
+  .anwender p .testimony, .anwender p .address { text-align: center; } }
+@media (max-width: 767px) { .anwender p { text-align: center; } }
+.anwender .subtitle { text-align: center; color: #bd1111; }
+@media (min-width: 1200px) { .anwender .subtitle { margin-bottom: 40px; } }
+.anwender a[href^="mailto:"] { color: #2F312F; }
+.anwender .name { font-weight: bold; }
+@media (max-width: 767px) { .anwender { padding-bottom: 40px; margin-bottom: 40px; border-bottom: 1px solid #CCC; }
+  .anwender .testimony, .anwender .address { text-align: center; } }
+@media (min-width: 768px) and (max-width: 991px) { .anwender { padding-bottom: 40px; margin-bottom: 40px; } }
+
+.mi-row-equal-height { display: table; }
+.mi-row-equal-height .mi-panel { float: none; display: table-cell; vertical-align: top; }
+
+.mi-bgrubin { height: 460px; background: url("/images/rubin_bg_grau.png") no-repeat center; background-size: contain; }
+@media (max-width: 767px) { .mi-bgrubin { background: none; margin-top: 40px; }
+  .mi-bgrubin:first-child { margin-top: 0; } }
+@media (min-width: 768px) and (max-width: 991px) { .mi-bgrubin { margin-top: 40px; }
+  .mi-bgrubin:first-child { margin-top: 0; } }
+.mi-bgrubin .rubin-inside { padding-top: 20px; }
+@media (max-width: 767px) { .mi-bgrubin .rubin-inside { background-color: #E6E6E6; padding-bottom: 10px; } }
+
+.mi-job { font-weight: bold; }
+
+.mi-feature { padding: 40px 0; }
+.mi-feature h3 { color: #2F312F; }
+.mi-feature li { display: block; list-style-type: none; margin-bottom: 7px; }
+.mi-feature ul > li:before { content: "\e072"; font-family: 'Glyphicons Halflings'; font-size: 9px; float: left; margin-top: 5px; margin-left: -17px; }
+
+input[type="text"], textarea, textarea.form-control { border-radius: 0; background-color: #E6E6E6; width: 100%; }
+
+.btn-primary { background-color: #bd1111; background-image: none; border-color: #bd1111; }
+.btn-primary:hover { background-color: #d41313; background-image: none; border-color: #d41313; }
+
+.form-control:focus { border-color: #bd1111; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6); }
+
+.dev1 { background-color: #2aabd2; border: 1px solid #2b669a; }
+
+.devborder1 { border: 1px solid green; }
+
+.devborder2 { border: 1px solid yellow; }
