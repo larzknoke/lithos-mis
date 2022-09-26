@@ -6,4 +6,4 @@ author_email: l.knoke@colorplus.de
 
 include: ["_pages"]
 
-baseurl: "/lithos-mis"
+baseurl: ""
