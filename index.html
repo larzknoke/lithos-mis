@@ -456,12 +456,63 @@ layout: default
     </div>
     <div class="row" style="margin: 0">
       <div class="col-md-offset-4 col-md-4 col-sm-offset-1 col-sm-10">
-        <div
-          class="pipedriveWebForms"
-          data-pd-webforms="https://pipedrivewebforms.com/form/c52de8572bfd73f507e5bfdf73962ba84910783"
-        >
-          <script src="https://cdn.pipedriveassets.com/web-form-assets/webforms.min.js"></script>
-        </div>
+        <form method="post" name="supportForm" id="supportForm">
+          <div class="form-group">
+            <label for="name" class="control-label">Wie heißen Sie?</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              required="required"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="firma" class="control-label"
+              >Wie lautet der Name Ihrer Firma?</label
+            >
+            <input id="firma" name="firma" type="text" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="email" class="control-label"
+              >Wie lautet Ihre E-Mail-Adresse?</label
+            >
+            <input
+              id="email"
+              name="email"
+              type="email"
+              required="required"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="telefon" class="control-label"
+              >Wie lautet Ihre Telefonnummer? (optional)</label
+            >
+            <input
+              id="telefon"
+              name="telefon"
+              type="text"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="nachricht" class="control-label"
+              >Ihre Nachricht (optional)</label
+            >
+            <textarea
+              id="nachricht"
+              name="nachricht"
+              class="form-control"
+              rows="5"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <button id="sendMessage" name="submit" type="submit" class="btn">
+              Absenden
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   </section>

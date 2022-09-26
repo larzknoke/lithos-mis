@@ -57,7 +57,7 @@
 }
 
 body {
-  font-size: 16px;
+  font-size: 17px;
   background-color: #ffffff;
   color: #2f312f;
   font-family: "Source Sans Pro", sans-serif;
@@ -134,11 +134,20 @@ a.anchor {
   overflow: hidden;
   height: 520px;
   background-color: #ffffff;
+  margin-top: 50px;
 }
 @media (max-width: 767px) {
   #header {
     height: 300px;
   }
+}
+.fix-area#header {
+  margin-top: 0;
+}
+
+.fix-area#header .outer {
+  padding-top: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .mi-headerbild {
@@ -552,6 +561,7 @@ section h4 {
 }
 
 input[type="text"],
+input[type="email"],
 textarea,
 textarea.form-control {
   border-radius: 0;
@@ -588,4 +598,31 @@ textarea.form-control {
 
 .devborder2 {
   border: 1px solid yellow;
+}
+
+label {
+  font-weight: 400;
+}
+
+button {
+  background-color: #bd1111;
+  color: white;
+  display: block;
+  width: 100%;
+  border-radius: 0 !important;
+  padding: 10px 0 !important;
+  font-size: 18px !important;
+}
+button:hover {
+  color: white !important;
+  background-color: #d41313;
+}
+
+.form-control {
+  border: 0;
+  box-shadow: none;
+  font-size: 18px;
+}
+.form-group {
+  margin-bottom: 25px;
 }
